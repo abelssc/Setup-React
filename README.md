@@ -5,7 +5,7 @@
 * Asegúrate de que tu archivo package.json tenga "type": "module"
 * Ejecuta el siguiente comando en la terminal node setup.js
 
-![files](files.png)
+![files](image.png)
 
 ```js
 import { fileURLToPath } from 'url';
