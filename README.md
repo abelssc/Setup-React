@@ -1,7 +1,13 @@
-// 0.Primero debes haber ejecutado vite; npm create vite@latest
-// 1.Asegúrate de que estás en la raíz del proyecto y el archivo setup.js está en la misma carpeta que package.json
-// 2.Asegúrate de que tu archivo package.json tenga "type": "module"
-// 3.Ejecuta el siguiente comando en la terminal node setup.js
+# Crea carpetas para un proyecto completo de react
+
+* Primero debes haber ejecutado vite; npm create vite@latest
+* Asegúrate de que estás en la raíz del proyecto y el archivo setup.js está en la misma carpeta que package.json
+* Asegúrate de que tu archivo package.json tenga "type": "module"
+* Ejecuta el siguiente comando en la terminal node setup.js
+
+![files](files.png)
+
+```js
 import { fileURLToPath } from 'url';
 import { dirname, join, extname } from 'path';
 import { existsSync, mkdirSync, writeFileSync } from 'fs';
@@ -57,3 +63,4 @@ directories.forEach((item) => {
 });
   
   console.log('Carpetas y archivos creados exitosamente.');
+```
